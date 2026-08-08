@@ -9,10 +9,6 @@ export default function progression(name) {
     let rightAnswer;
     let answer;
     const cont = [];
-
-
-
-
     while (count2 < 3) {
 
         count = Math.floor(Math.random() * 10) + 1;
