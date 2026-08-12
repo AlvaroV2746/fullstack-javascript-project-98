@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 
-import { bienvenida } from '../src/cli.js';
+export const bienvenida = () => {
+    console.log("Bienvenido a Brain games");
+}
 bienvenida();
