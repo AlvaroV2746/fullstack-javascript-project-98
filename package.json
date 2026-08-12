@@ -12,12 +12,14 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js",
     "brain-square": "bin/brain-square.js"
-
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
