@@ -17,7 +17,7 @@ export default function even(name) {
             console.log("¡Correcto!")
             count++
         } else {
-            console.log(`${answer} es una respuesta incorrecta ;(. La respuesta correcta era ${comp}.`)
+            console.log(`Tu respuesta:${answer} es una respuesta incorrecta ;(. La respuesta correcta era ${comp}.`)
             console.log(`¡Intentémoslo de nuevo, ${name}!`)
         }
     }
