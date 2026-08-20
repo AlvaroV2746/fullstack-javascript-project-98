@@ -14,13 +14,15 @@ export default function even(name) {
         console.log(`Pregunta: ${number}`);
         let answer = readlineSync.question('Tu respuesta:');
         if (answer === comp) {
-            console.log("¡Correcto!")
-            count++
+            console.log("¡Correcto!");
+            count++;
         } else {
-            console.log(`Tu respuesta:${answer} es una respuesta incorrecta ;(. La respuesta correcta era ${comp}.`)
-            console.log(`¡Intentémoslo de nuevo, ${name}!`)
+            console.log(`Tu respuesta:${answer} es una respuesta incorrecta ;(. La respuesta correcta era ${comp}.`);
+            console.log(`¡Intentémoslo de nuevo, ${name}!`);
         }
     }
-    console.log(`¡Felicidades, ${name}!`)
+    if (count === 3){
+    console.log(`¡Felicidades, ${name}!`);
+    }
 }
 
